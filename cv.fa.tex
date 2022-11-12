@@ -6,12 +6,12 @@
 % xepersian configuration.
 \usepackage{xepersian}
 
-\settextfont{Vazir Code}
-\setlatintextfont{Consolas}
+\settextfont{Vazir}
+\setlatintextfont{Carlito}
 
 \rfoot{
 	\footnotesize \today \\
-	\lr{\hyperref{https://github.com/SMR76/curriculum-vitae/raw/main/cv.en.pdf}{}{}{En}, Fa} \\
+	\lr{\href{https://github.com/SMR76/curriculum-vitae/raw/main/cv.en.pdf}{En}, Fa} \\
 }
 
 \begin{document}
@@ -39,72 +39,81 @@
 		postbreak=\mbox{\textcolor{blue}{$\hookrightarrow$}\space}
 	}
 
-	\hypersetup{urlcolor=blueLink}
-
 	\newcounter{dateone}%
 	\newcounter{datetwo}%
-	\setmydatenumber{dateone}{1997}{11}{11}%
+	\setmydatenumber{dateone}{1997}{11}{25}%
 	\setmydatenumber{datetwo}{\the\year}{\the\month}{\the\day}%
 	\FPeval\myage{trunc(div(sub(\thedatetwo,\thedateone),365.2425),0)}
 
 	\noindent
-	سید مرتضیٰ رضوی.\\
-	سن
-	\myage\smallskip
-	سال.\\
-	برنامه‌نویس
-	\lr{QML}/\lr{C++}.\\
-	علاقه‌مند به طراحی و نقاشی.\\
-	\noindent\textcolor{gray}{\rule{\linewidth}{1pt}}
-	آشنایی نسبی با موضوعات زیر:
-	\vspace{5mm}
+	\begin{center}
 
-	\begin{itemize}[nosep]
-		\item \lr{Git}.
-		\item \LaTeX.
-		\item \lr{Linux}.
-		\item \lr{Arduino}.\textsubscript{\lr{(e.g.,\hyperref{https://github.com/SMR76/stabilizer/tree/master/Stabilizer Arduino/stabilizer}{}{}{stabilizer})}}
-		\item \lr{GitHub Workflow}.\textsubscript{\lr{(e.g.,\hyperref{https://github.com/SMR76/github-action-test}{}{}{github-action-test})}}
-		\item \lr{JavaScript} و \lr{JQuery}.\textsubscript{\lr{(e.g.,\hyperref{https://github.com/SMR76/SMR76.github.io}{}{}{smr76.github.io})}}
-		\item \lr{CSS} و \lr{Bootstrap}.\textsubscript{\lr{(e.g.,\hyperref{https://github.com/SMR76/SMR76.github.io}{}{}{smr76.github.io})}}
-	\end{itemize}\vspace{5mm}
-	\noindent\textcolor{gray}{\rule{\linewidth}{1pt}}
-	\noindent
-	برخی از پروژه‌های من:
+
+	\textbf{رزومه}
+	\noindent\textcolor{gray}{\rule{\linewidth}{0.5pt}}
+	\textit{
+	مرتضیٰ رضوی هستم}\\
+	\textit{
+	برنامه‌نویس
+	\lr{C++} و \lr{QML}.}\\[8mm]
+	سن:
+	\myage\smallskip\\
+	کارشناسی کامپیوتر دانشگاه
+	\href{https://en.wikipedia.org/wiki/Quchan\_University\_of\_Advanced\_Technologies\_Engineering}
+	{قوچان}\\
+	\noindent\textcolor{gray}{\rule{\linewidth}{0.5pt}}
+	برنامه‌های نوشته شده توسط بنده.\\
+	\textsubscript{تم‌ها}\\
+	شامل چندین
+	\lr{Style}
+	برای
+	\lr{Component}%
+	های
+	\lr{QtQuick}.
+	\begin{latin}
+		\centering
+		\href{https://github.com/SMR76/qml-neumorphism}{Neumorphism},
+		\href{https://github.com/SMR76/qml-snow-white}{Snow White},
+		\href{https://github.com/SMR76/qooey}{Qooey},
+		\href{https://github.com/SMR76/qube}{Qube},
+		\href{https://github.com/SMR76/glitch}{Glitch},
+		\href{https://github.com/SMR76/hive}{Hive}
+	\end{latin}
 	\vspace{5mm}
+	\textsubscript{برنامه‌ها}
+	\begin{latin}
+		\href{https://github.com/SMR76/knight-pen}{Knight Pen},
+		\href{https://github.com/SMR76/cardian}{Qloudy},
+		\href{https://github.com/SMR76/cardian}{Cardian}
+	\end{latin}
+	\textsubscript{ابزارها}
+	\begin{latin}
+		\centering
+		\href{https://github.com/SMR76/icon-manager}{Icon Manager},
+		\href{https://github.com/SMR76/qomponent}{Qomponent}
+	\end{latin}
+	\vspace{5mm}
+	\textsubscript{وب}
+	\begin{latin}
+		\centering
+		\href{https://smr76.github.io}{smr76.github.io},
+		\href{https://github.com/SMR76/smr-wp-plugin}{Wordpress Plugin}
+	\end{latin}
+	\vspace{5mm}
+	\textsubscript{طراحی‌ها}\\
+	\href{https://www.instagram.com/one.red.little.fish}{\lr{instagram}}
+	\includegraphics[width=\linewidth]{./sleeping-fox.pdf}\vspace*{-10mm}
+	تماس با من
+	\end{center}
 	\begin{itemize}[nosep]
-		\item \hyperref{https://github.com/SMR76/knight-pen}{}{}{\lr{knight-pen}}،
-		یک برنامه‌ٔ ساده برای حاشیه‌نویسی صفحه نمایش.
-		\item \hyperref{https://github.com/SMR76/qml-snow-white}{}{}{\lr{qml-snow-white}}،
-		مجموعه
-		\lr{Componnent}
-		برای
-		\lr{QML}.
-		\item \hyperref{https://github.com/SMR76/qml-neumorphism}{}{}{\lr{qml-neumorphism}}،
-		مجموعه
-		\lr{Componnent}
-		در سبک
-		\lr{Neumorphism}
-		برای
-		\lr{QML}.
-		\item \hyperref{https://github.com/SMR76/smr-wp-plugin}{}{}{\lr{smr-wp-plugin}}،
-		یک پلاگین وردپرس ساده و چندکاره.
-		\item \hyperref{https://github.com/SMR76/car-alarm}{}{}{\lr{car-alarm}}،
-		دزدگیر ماشین.
-	\end{itemize}\vspace{5mm}
-	همچنین مابقی پروژه‌های من در
-	\hyperref{https://github.com/SMR76?tab=repositories}{}{}{\lr{GitHub}}
-	قابل مشاهده هستند.\\[5mm]
-	راه‌های تماس با من:
-	\begin{itemize}[nosep]
-		\item \textcolor{gmail}{\faAt}\
+		\item \textcolor{gmail}{\faAt}
 		پست الکترونیک:
-		\hyperref{mailto:seyyed.morteza.razavi.76@gmail.com} {}{}{\lr{seyyed.morteza.razavi.76@gmail.com}}
-		\item \textcolor{telegram}{\faSendO}\
+		\href{mailto:seyyed.morteza.razavi.76@gmail.com} {\lr{seyyed.morteza.razavi.76@gmail.com}}
+		\item \textcolor{telegram}{\faSendO}
 		تلگرام:
-		\hyperref{tg://resolve?domain=S\_M\_R0}{}{}{\lr{@S\_M\_R0}}
-		\item \textcolor{edge}{\faEdge}\
+		\href{https://s\_m\_r0.t.me}{\lr{@S\_M\_R0}}
+		\item \textcolor{edge}{\faEdge}
 		وبسایت:
-		\hyperref{https://SMR76.github.io/#contactMe}{}{}{\lr{smr76.github.io}}
+		\href{https://SMR76.github.io/#contactMe}{\lr{smr76.github.io}}
 	\end{itemize}
 \end{document}

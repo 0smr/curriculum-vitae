@@ -4,8 +4,8 @@
 
 \lfoot{
     \footnotesize \today \\
-    En, \hyperref{https://github.com/SMR76/curriculum-vitae/raw/main/cv.fa.pdf}{}{}{Fa} \\
-    \hyperref{https://github.com/SMR76/curriculum-vitae}{}{}{Source} \\
+    En, \href{https://github.com/SMR76/curriculum-vitae/raw/main/cv.fa.pdf}{Fa} \\
+    \href{https://github.com/SMR76/curriculum-vitae}{Source} \\
 }
 
 \begin{document}
@@ -33,51 +33,50 @@
         postbreak=\mbox{\textcolor{blue}{$\hookrightarrow$}\space}
     }
 
-    \hypersetup{urlcolor=blueLink}
-
     \newcounter{dateone}%
     \newcounter{datetwo}%
-    \setmydatenumber{dateone}{1997}{11}{11}%
+    \setmydatenumber{dateone}{1997}{11}{25}%
     \setmydatenumber{datetwo}{\the\year}{\the\month}{\the\day}%
     \FPeval\myage{trunc(div(sub(\thedatetwo,\thedateone),365.2425),0)}
 
-    \noindent Hello, my name is Morteza Razavi.	\\
-    I graduated from
-    \hyperref{https://en.wikipedia.org/wiki/Quchan\_University\_of\_Advanced\_Technologies\_Engineering}{}{}{Quchan university of technology}.
-        with a Bachelor's degree. \\
-    I have programming expertise with Qt, C++, and QML. \\
-    I enjoy art and UI design. \\
-    \noindent\textcolor{gray}{\rule{\linewidth}{1pt}}
-    I'm also informed on the following subjects: \vspace{5mm}
-
+	\begin{center}
+	    \noindent \textbf{I'm SMR}
+	    \noindent\textcolor{gray}{\rule{\linewidth}{0.5pt}}
+	    \textit{A QML/C++ programmer}\\[5mm]
+	    24 Years old\\
+	    Bachelor's degree
+	    \textsubscript{\href{https://en.wikipedia.org/wiki/Quchan\_University\_of\_Advanced\_Technologies\_Engineering}{Quchan university}}\\[5mm]
+	    \textbf{\large A Life Story}\\
+	    The most of my work is around designing UIs, ideas, and making them possible using the QML, mostly with the help of OpenGL shaders.\\
+	    Here's what I've done so far.\\
+	    \textsubscript{QtQuick themes}\\
+		\href{https://github.com/SMR76/qml-neumorphism}{Neumorphism},
+		\href{https://github.com/SMR76/qml-snow-white}{Snow White},
+		\href{https://github.com/SMR76/qooey}{Qooey},
+		\href{https://github.com/SMR76/qube}{Qube},
+		\href{https://github.com/SMR76/glitch}{Glitch},
+		\href{https://github.com/SMR76/hive}{Hive}
+		\\[5mm]
+	    \textsubscript{applications}\\
+	    \href{https://github.com/SMR76/knight-pen}{Knight Pen},
+	    \href{https://github.com/SMR76/cardian}{Qloudy},
+	    \href{https://github.com/SMR76/cardian}{Cardian}\\[-2mm]
+	    \noindent\textcolor{blueLink}{\hfil\rule{6cm}{0.5pt}\hfil}\\
+	    \href{https://github.com/SMR76/icon-manager}{Icon Manager},
+	    \href{https://github.com/SMR76/qomponent}{Qomponent}
+		\\[5mm]
+	    \textsubscript{web projects}\\
+	    \href{https://smr76.github.io}{smr76.github.io},
+	    \href{https://github.com/SMR76/smr-wp-plugin}{Wordpress Plugin}
+		\\[5mm]
+	    \textsubscript{designs}\\
+	    \href{https://www.instagram.com/one.red.little.fish}{instagram}
+		\includegraphics[width=\linewidth]{./sleeping-fox.pdf}\vspace*{-13mm}
+	    Contact me:
+	\end{center}
     \begin{itemize}[nosep]
-        \item Git version control.
-        \item GitHub CI/CD (just
-            \hyperref{https://github.com/SMR76/github-action-test}{}{}{this} little GitHub workflow for Qt Windows build).
-        \item GNU/Linux (my main OS is Windows, but I like to use Linux distributions too).
-        \item Arduino programming.
-        \item ARM programming (currently learning).
-        \item \LaTeX.
-        \item JavaScript and JQuery, as used in my \hyperref{https://github.com/SMR76/SMR76.github.io}{}{}{website}.
-        \item And some knowledge of CSS and Bootstrap and PHP.
-    \end{itemize}\vspace{5mm}
-    \noindent\textcolor{gray}{\rule{\linewidth}{1pt}}
-    \noindent Some of the projects which I developed:\vspace{5mm}
-    \begin{itemize}[nosep]
-        \item \hyperref{https://github.com/SMR76/knight-pen}{}{}{knight-pen}, Simple screen annotation software.
-        \item \hyperref{https://github.com/SMR76/qml-neumorphism}{}{}{qml-neumorphism},
-        QtQuick Neumorphism (soft UI) style for Qt applications.
-        \item \hyperref{https://github.com/SMR76/qml-snow-white}{}{}{qml-snow-white}
-        QtQuick Snow White style for Qt applications.
-        \item \hyperref{https://github.com/SMR76/smr-wp-plugin}{}{}{smr-wp-plugin}, All in one WordPress plugin.
-        \item \hyperref{https://github.com/SMR76/car-alarm}{}{}{car-alarm},
-        This project is centered on building hardware that can be installed in your automobile to help safeguard it from thieves and give you more control over it.
-    \end{itemize}\vspace{5mm}
-    See my other projects on \hyperref{https://github.com/SMR76?tab=repositories}{}{}{GitHub}.\\
-    Contact me:
-    \begin{itemize}[nosep]
-        \item \textcolor{gmail}{\faAt}\ Gmail: \hyperref{mailto:seyyed.morteza.razavi.76@gmail.com} {}{}{seyyed.morteza.razavi.76@gmail.com}
-        \item \textcolor{telegram}{\faSendO}\ telegram: \hyperref{tg://resolve?domain=S\_M\_R0}{}{}{\faAt S\_M\_R0}
-        \item \textcolor{edge}{\faEdge}\ my website: \hyperref{https://SMR76.github.io/#contactMe}{}{}{SMR76.github.io}
+        \item \textcolor{gmail}{\faAt}\ Gmail: \href{mailto:seyyed.morteza.razavi.76@gmail.com} {seyyed.morteza.razavi.76@gmail.com}
+        \item \textcolor{telegram}{\faSendO}\ telegram: \href{tg://resolve?domain=S\_M\_R0}{\faAt S\_M\_R0}
+        \item \textcolor{edge}{\faEdge}\ my website: \href{https://SMR76.github.io/#contactMe}{SMR76.github.io}
     \end{itemize}
 \end{document}
